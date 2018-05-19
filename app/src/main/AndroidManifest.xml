@@ -19,7 +19,11 @@
         <activity android:name=".Page1" />
         <activity android:name=".Page2" />
         <activity android:name=".Page3" />
-        <activity android:name=".Page4"></activity>
+        <activity android:name=".Page4" />
+        <activity android:name=".Page5" />
+        <activity android:name=".Page6" />
+        <activity android:name=".Page7" />
+        <activity android:name=".Page8"></activity>
     </application>
 
 </manifest>

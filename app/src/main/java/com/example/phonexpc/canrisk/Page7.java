@@ -6,21 +6,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Page4 extends AppCompatActivity {
+public class Page7 extends AppCompatActivity {
 
-    Button btn4Next;
+    Button btn7Next;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_page4);
+        setContentView(R.layout.activity_page7);
 
-        btn4Next = findViewById(R.id.btn4Next);
+        btn7Next = findViewById(R.id.btn7Next);
 
-        btn4Next.setOnClickListener(new View.OnClickListener() {
+        btn7Next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Page4.this, Page5.class);
+                Intent intent = new Intent(Page7.this, Page8.class);
                 startActivity(intent);
             }
         });

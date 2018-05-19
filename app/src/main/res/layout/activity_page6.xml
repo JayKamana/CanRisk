@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.phonexpc.canrisk.Page6">
+
+    <TextView
+        android:id="@+id/page6Points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="107dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="22dp"
+        android:text="Current Points:" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/page6Points"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="48dp"
+        android:text="SOME TYPES OF DIABETES RUN IN FAMILIES"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView29"
+        android:layout_alignStart="@+id/textView29"
+        android:layout_below="@+id/textView29"
+        android:layout_marginTop="30dp"
+        android:text="10.  Have any of your blood relatives ever been diagnosed with diabetes?" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView30"
+        android:layout_alignStart="@+id/textView30"
+        android:layout_below="@+id/textView30"
+        android:layout_marginTop="13dp"
+        android:text="Check all that apply" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView31"
+        android:layout_alignStart="@+id/textView31"
+        android:layout_below="@+id/textView31"
+        android:layout_marginTop="14dp"
+        android:text="Mother" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox"
+        android:layout_alignStart="@+id/checkBox"
+        android:layout_below="@+id/checkBox"
+        android:text="Father" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox2"
+        android:layout_alignStart="@+id/checkBox2"
+        android:layout_below="@+id/checkBox2"
+        android:text="Brothers/Sisters" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox3"
+        android:layout_alignStart="@+id/checkBox3"
+        android:layout_below="@+id/checkBox3"
+        android:text="Children" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox4"
+        android:layout_alignStart="@+id/checkBox4"
+        android:layout_below="@+id/checkBox4"
+        android:text="Other" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox5"
+        android:layout_alignStart="@+id/checkBox5"
+        android:layout_below="@+id/checkBox5"
+        android:text="No/don't know" />
+
+    <Button
+        android:id="@+id/btn6Next"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="17dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:text="NEXT" />
+</RelativeLayout>
