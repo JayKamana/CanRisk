@@ -6,4 +6,35 @@
     android:layout_height="match_parent"
     tools:context="com.example.phonexpc.canrisk.MainActivity">
 
+    <TextView
+        android:id="@+id/canRisk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="CANRISK"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/canRiskDesc"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/canRisk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:text="The following questions will help you to find out if you are at higher risk of having prediabetes or type 2 diabetes. "
+        android:textSize="18sp"
+        android:lineSpacingMultiplier="1.1"
+        android:lineSpacingExtra="2dp"/>
+
+    <Button
+        android:id="@+id/btnStartTest"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/canRiskDesc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Start the Test" />
 </RelativeLayout>
