@@ -32,7 +32,7 @@
         android:lineSpacingMultiplier="1.1"
         android:text="YOUR LEVEL OF PHYSICAL ACTIVITY AND WHAT YOU EAT CAN AFFECT YOUR RISK OF DEVELOPING DIABETES"
         android:textColor="@color/colorAccent"
-        android:textSize="18sp" />
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/textView18"
@@ -52,7 +52,7 @@
         android:layout_centerVertical="true"
         android:layout_marginLeft="39dp"
         android:layout_marginStart="39dp"
-        android:id="@+id/radioGroup3">
+        android:id="@+id/radioGroupPhysical">
 
         <RadioButton
             android:id="@+id/radioButton11"
@@ -75,31 +75,32 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView18"
         android:layout_alignStart="@+id/textView18"
-        android:layout_below="@+id/radioGroup3"
+        android:layout_below="@+id/radioGroupPhysical"
         android:layout_marginTop="34dp"
         android:text="6. How often do you eat vegetables or fruits?" />
 
     <RadioGroup
+        android:id="@+id/radioGroupNutrition"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/radioGroup3"
-        android:layout_alignStart="@+id/radioGroup3"
+        android:layout_alignLeft="@+id/radioGroupPhysical"
+        android:layout_alignStart="@+id/radioGroupPhysical"
         android:layout_below="@+id/textView19"
-        android:layout_marginTop="16dp" >
+        android:layout_marginTop="16dp">
 
         <RadioButton
             android:id="@+id/radioButton13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Everyday" />
+            android:text="Every day" />
 
         <RadioButton
             android:id="@+id/radioButton14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Not Everyday" />
+            android:text="Not every day" />
     </RadioGroup>
 
     <Button
@@ -114,4 +115,14 @@
         android:layout_marginEnd="22dp"
         android:layout_marginRight="22dp"
         android:text="NEXT" />
+
+    <TextView
+        android:id="@+id/page4Points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView17"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/textView16"
+        android:layout_toRightOf="@+id/textView16" />
 </RelativeLayout>

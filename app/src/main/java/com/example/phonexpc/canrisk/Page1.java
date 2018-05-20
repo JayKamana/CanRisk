@@ -76,6 +76,7 @@ public class Page1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Page1.this, Page2.class);
+                intent.putExtra("Points", agePoints + genderPoints + loadedPoints);
                 startActivity(intent);
             }
         });

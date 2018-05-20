@@ -57,36 +57,37 @@
         android:text="Select your BMI group from the follownig choices" />
 
     <RadioGroup
+        android:id="@+id/radioGroupBMI"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView8"
         android:layout_alignStart="@+id/textView8"
         android:layout_below="@+id/textView8"
-        android:layout_marginTop="22dp" >
+        android:layout_marginTop="22dp">
 
         <RadioButton
-            android:id="@+id/radioButton7"
+            android:id="@+id/bmi25"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="BMI less than 25" />
 
         <RadioButton
-            android:id="@+id/radioButton8"
+            android:id="@+id/bmi29"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="BMI 25 - 29" />
 
         <RadioButton
-            android:id="@+id/radioButton9"
+            android:id="@+id/bmi34"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="BMI 30 - 34" />
 
         <RadioButton
-            android:id="@+id/radioButton10"
+            android:id="@+id/bmiOver"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -103,5 +104,15 @@
         android:layout_alignRight="@+id/textView8"
         android:layout_marginBottom="15dp"
         android:text="NEXT" />
+
+    <TextView
+        android:id="@+id/page2Points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView6"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/textView5"
+        android:layout_toRightOf="@+id/textView5" />
 
 </RelativeLayout>

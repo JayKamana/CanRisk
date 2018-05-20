@@ -31,12 +31,13 @@
         android:text="4. Using a tape measure, place it around your waist at the level of your belly button. " />
 
     <RadioGroup
+        android:id="@+id/radioGroupWaist"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView12"
         android:layout_alignStart="@+id/textView12"
         android:layout_below="@+id/textView12"
-        android:layout_marginTop="41dp" >
+        android:layout_marginTop="41dp">
 
         <TextView
             android:id="@+id/textView13"
@@ -46,7 +47,7 @@
             android:text="MEN – Waist circumference:View" />
 
         <RadioButton
-            android:id="@+id/radioButton21"
+            android:id="@+id/lessMale"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
@@ -54,51 +55,51 @@
             android:text="Less than 94 cm or 37 inches" />
 
         <RadioButton
-            android:id="@+id/radioButton22"
+            android:id="@+id/betweenMale"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_marginLeft="15dp"
+            android:layout_weight="1"
             android:text="Between 94-102 cm or 37-40 inches" />
 
         <RadioButton
-            android:id="@+id/radioButton23"
+            android:id="@+id/overMale"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_marginLeft="15dp"
+            android:layout_weight="1"
             android:text="Over 102 cm or 40 inches" />
 
         <TextView
             android:id="@+id/textView14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_marginTop="15dp"
+            android:layout_weight="1"
             android:text="WOMEN – Waist circumference:" />
 
         <RadioButton
-            android:id="@+id/radioButton24"
+            android:id="@+id/lessFemale"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_marginLeft="15dp"
+            android:layout_weight="1"
             android:text="Less than 80 cm or 31.5 inches " />
 
         <RadioButton
-            android:id="@+id/radioButton25"
+            android:id="@+id/betweenFemale"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_marginLeft="15dp"
+            android:layout_weight="1"
             android:text="Between 80-88 cm or 31.5-35 inches" />
 
         <RadioButton
-            android:id="@+id/radioButton26"
+            android:id="@+id/overFemale"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_marginLeft="15dp"
+            android:layout_weight="1"
             android:text="Over 88 cm or 35 inches " />
     </RadioGroup>
 
@@ -114,4 +115,14 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:text="NEXT" />
+
+    <TextView
+        android:id="@+id/page3Points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView12"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@+id/textView11"
+        android:layout_toRightOf="@+id/textView11" />
 </RelativeLayout>

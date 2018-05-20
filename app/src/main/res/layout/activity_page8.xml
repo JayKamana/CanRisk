@@ -42,6 +42,7 @@
         android:text="12. What is the highest level of education that you have completed?" />
 
     <RadioGroup
+        android:id="@+id/radioGroupEducation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView28"
@@ -49,31 +50,31 @@
         android:layout_below="@+id/textView28"
         android:layout_marginLeft="15dp"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="13dp" >
+        android:layout_marginTop="13dp">
 
         <RadioButton
-            android:id="@+id/radioButton38"
+            android:id="@+id/rbHighSchool"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Some high school or less " />
 
         <RadioButton
-            android:id="@+id/radioButton39"
+            android:id="@+id/rbDiploma"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="High school diploma" />
 
         <RadioButton
-            android:id="@+id/radioButton40"
+            android:id="@+id/rbCollege"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Some college or university " />
 
         <RadioButton
-            android:id="@+id/radioButton41"
+            android:id="@+id/rbDegree"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -81,7 +82,7 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnResults"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -92,4 +93,15 @@
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
         android:text="RESULTS" />
+
+    <TextView
+        android:id="@+id/page8Points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView27"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_toEndOf="@+id/textView26"
+        android:layout_toRightOf="@+id/textView26"
+        android:text="jj" />
 </RelativeLayout>

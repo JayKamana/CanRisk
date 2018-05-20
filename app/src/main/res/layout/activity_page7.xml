@@ -58,40 +58,40 @@
         android:layout_alignStart="@+id/textView24"
         android:layout_below="@+id/textView24"
         android:layout_marginTop="13dp"
-        android:id="@+id/radioGroup7">
+        android:id="@+id/radioGroupMotherEthnic">
 
         <RadioButton
-            android:id="@+id/radioButton17"
+            android:id="@+id/motherWhite"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
         <RadioButton
-            android:id="@+id/radioButton27"
+            android:id="@+id/motherAboriginal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
         <RadioButton
-            android:id="@+id/radioButton28"
+            android:id="@+id/motherBlack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
         <RadioButton
-            android:id="@+id/radioButton29"
+            android:id="@+id/motherEastAsian"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
         <RadioButton
-            android:id="@+id/radioButton30"
+            android:id="@+id/motherSouthAsian"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
         <RadioButton
-            android:id="@+id/radioButton31"
+            android:id="@+id/motherNonWhite"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
@@ -102,46 +102,46 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView25"
         android:layout_alignStart="@+id/textView25"
-        android:layout_alignTop="@+id/radioGroup7"
-        android:id="@+id/radioGroup8">
+        android:layout_alignTop="@+id/radioGroupMotherEthnic"
+        android:id="@+id/radioGroupFatherEthnic">
 
         <RadioButton
-            android:id="@+id/radioButton32"
+            android:id="@+id/fatherWhite"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="White (Caucasian)" />
 
         <RadioButton
-            android:id="@+id/radioButton33"
+            android:id="@+id/fatherAboriginal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Aboriginal" />
 
         <RadioButton
-            android:id="@+id/radioButton34"
+            android:id="@+id/fatherBlack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Black (Afro-Caribbean) " />
 
         <RadioButton
-            android:id="@+id/radioButton35"
+            android:id="@+id/fatherEastAsian"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="East Asian (Chinese, Vietnamese, etc.) " />
 
         <RadioButton
-            android:id="@+id/radioButton36"
+            android:id="@+id/fatherSouthAsian"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="South Asian (East Indian, Pakistani, etc)" />
 
         <RadioButton
-            android:id="@+id/radioButton37"
+            android:id="@+id/fatherNonWhite"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -153,9 +153,20 @@
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/radioGroup8"
+        android:layout_alignEnd="@+id/radioGroupFatherEthnic"
         android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/radioGroup8"
+        android:layout_alignRight="@+id/radioGroupFatherEthnic"
         android:layout_marginBottom="27dp"
         android:text="NEXT" />
+
+    <TextView
+        android:id="@+id/page7Points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView23"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/textView22"
+        android:layout_toRightOf="@+id/textView22"
+        android:text="jj" />
 </RelativeLayout>
