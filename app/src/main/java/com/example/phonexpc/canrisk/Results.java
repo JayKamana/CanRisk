@@ -1,6 +1,7 @@
 package com.example.phonexpc.canrisk;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -39,11 +40,13 @@ public class Results extends AppCompatActivity {
 
         if(loadedPoints < 21) {
             riskStatus.setText("low risk");
+            riskStatus.setTextColor(Color.parseColor("#5cb85c"));
             riskDesc.setText("Your risk of having pre-diabetes or type 2 " +
                     "diabetes is fairly low, though it always pays " +
                     "to maintain a healthy lifestyle");
         } else if (loadedPoints > 21 && loadedPoints < 35){
             riskStatus.setText("moderate risk");
+            riskStatus.setTextColor(Color.parseColor("#f0ad4e"));
             riskDesc.setText("Based on your identified risk factors, your risk " +
                     "of having pre-diabetes or type 2 diabetes " +
                     "is moderate. You may wish to consult with " +
@@ -51,6 +54,7 @@ public class Results extends AppCompatActivity {
                     "developing diabetes.");
         } else {
             riskStatus.setText("high risk");
+            riskStatus.setTextColor(Color.parseColor("#d9534f"));
             riskDesc.setText("Based on your identified risk factors, your risk " +
                     "of having pre-diabetes or type 2 diabetes is " +
                     "high. You may wish to consult with a health " +

@@ -20,14 +20,14 @@
 
     <TextView
         android:id="@+id/textView17"
-        android:layout_width="wrap_content"
+        android:layout_width="330dp"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/textView16"
-        android:layout_marginLeft="36dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="29dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
         android:lineSpacingExtra="2dp"
         android:lineSpacingMultiplier="1.1"
         android:text="YOUR LEVEL OF PHYSICAL ACTIVITY AND WHAT YOU EAT CAN AFFECT YOUR RISK OF DEVELOPING DIABETES"
@@ -41,18 +41,17 @@
         android:layout_alignLeft="@+id/textView17"
         android:layout_alignStart="@+id/textView17"
         android:layout_below="@+id/textView17"
-        android:layout_marginTop="38dp"
+        android:layout_marginTop="22dp"
         android:text="5. Do you usually do some physical activity such as brisk walking for at least 30 minutes each day? " />
 
     <RadioGroup
+        android:id="@+id/radioGroupPhysical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView18"
         android:layout_alignStart="@+id/textView18"
         android:layout_centerVertical="true"
-        android:layout_marginLeft="39dp"
-        android:layout_marginStart="39dp"
-        android:id="@+id/radioGroupPhysical">
+        android:layout_marginLeft="20dp">
 
         <RadioButton
             android:id="@+id/radioButton11"
@@ -85,8 +84,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/radioGroupPhysical"
         android:layout_alignStart="@+id/radioGroupPhysical"
-        android:layout_below="@+id/textView19"
-        android:layout_marginTop="16dp">
+        android:layout_below="@+id/textView19">
 
         <RadioButton
             android:id="@+id/radioButton13"

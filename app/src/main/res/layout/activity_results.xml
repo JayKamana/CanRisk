@@ -13,8 +13,9 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="11dp"
         android:layout_marginStart="11dp"
-        android:layout_marginTop="78dp"
-        android:text="TextView" />
+        android:layout_marginTop="100dp"
+        android:text="TextView"
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/btnRestart"
@@ -31,19 +32,36 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginEnd="12dp"
-        android:layout_marginRight="12dp"
-        android:layout_marginTop="28dp"
-        android:layout_toLeftOf="@+id/riskStatus"
-        android:layout_toStartOf="@+id/riskStatus"
-        android:text="TextView" />
+        android:layout_marginLeft="105dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="38dp"
+        android:text="TextView"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/riskStatus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/btnRestart"
-        android:layout_alignRight="@+id/btnRestart"
-        android:layout_alignTop="@+id/totalPointsScore"
-        android:text="TextView" />
+        android:layout_alignBaseline="@+id/totalPointsScore"
+        android:layout_alignBottom="@+id/totalPointsScore"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_toEndOf="@+id/totalPointsScore"
+        android:layout_toRightOf="@+id/totalPointsScore"
+        android:text="TextView"
+        android:textAllCaps="true"
+        android:lineSpacingExtra="2dp"
+        android:lineSpacingMultiplier="1.1"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnRestart"
+        android:layout_alignLeft="@+id/riskDesc"
+        android:layout_alignStart="@+id/riskDesc"
+        android:layout_marginBottom="27dp"
+        android:text="Thank you for completing the Canadian Diabetes Risk Questionnaire."
+        android:textSize="16sp" />
 </RelativeLayout>
