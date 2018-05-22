@@ -31,7 +31,8 @@
         android:lineSpacingExtra="2dp"
         android:lineSpacingMultiplier="1.1"
         android:text="SOME TYPES OF DIABETES RUN IN FAMILIES"
-        android:textColor="@color/colorAccent" />
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/textView30"

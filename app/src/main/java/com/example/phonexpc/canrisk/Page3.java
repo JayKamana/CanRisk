@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Page3 extends AppCompatActivity {
 
@@ -61,9 +62,13 @@ public class Page3 extends AppCompatActivity {
         btn3Next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Page3.this, Page4.class);
-                intent.putExtra("Points", waistPoints + loadedPoints);
-                startActivity(intent);
+                if(radioGroupWaist.getCheckedRadioButtonId() != -1){
+                    Intent intent = new Intent(Page3.this, Page4.class);
+                    intent.putExtra("Points", waistPoints + loadedPoints);
+                    startActivity(intent);
+                } else {
+                    Toast.makeText(Page3.this, "Please select an option for each category", Toast.LENGTH_SHORT).show();
+                }
             }
         });
     }

@@ -44,7 +44,7 @@ public class Results extends AppCompatActivity {
             riskDesc.setText("Your risk of having pre-diabetes or type 2 " +
                     "diabetes is fairly low, though it always pays " +
                     "to maintain a healthy lifestyle");
-        } else if (loadedPoints > 21 && loadedPoints < 35){
+        } else if (loadedPoints > 21 && loadedPoints < 33){
             riskStatus.setText("moderate risk");
             riskStatus.setTextColor(Color.parseColor("#f0ad4e"));
             riskDesc.setText("Based on your identified risk factors, your risk " +

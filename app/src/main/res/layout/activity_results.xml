@@ -8,13 +8,13 @@
 
     <TextView
         android:id="@+id/riskDesc"
-        android:layout_width="wrap_content"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="11dp"
         android:layout_marginStart="11dp"
         android:layout_marginTop="100dp"
-        android:text="TextView"
+        android:text="risk description"
         android:textSize="16sp" />
 
     <Button
@@ -32,10 +32,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="105dp"
-        android:layout_marginStart="105dp"
-        android:layout_marginTop="38dp"
-        android:text="TextView"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="36dp"
+        android:text="total Points"
         android:textSize="20sp" />
 
     <TextView
@@ -48,15 +48,15 @@
         android:layout_marginStart="31dp"
         android:layout_toEndOf="@+id/totalPointsScore"
         android:layout_toRightOf="@+id/totalPointsScore"
-        android:text="TextView"
-        android:textAllCaps="true"
         android:lineSpacingExtra="2dp"
         android:lineSpacingMultiplier="1.1"
+        android:text="risk status"
+        android:textAllCaps="true"
         android:textSize="18sp" />
 
     <TextView
         android:id="@+id/textView34"
-        android:layout_width="wrap_content"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_above="@+id/btnRestart"
         android:layout_alignLeft="@+id/riskDesc"

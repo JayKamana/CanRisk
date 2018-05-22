@@ -29,7 +29,8 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="30dp"
         android:text="OTHER FACTORS ARE ALSO RELATED TO DEVELOPING DIABETES"
-        android:textColor="@color/colorAccent" />
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/textView28"

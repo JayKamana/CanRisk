@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Page6 extends AppCompatActivity implements CompoundButton.OnCheckedChangeListener {
     Button btn6Next;
@@ -45,9 +46,14 @@ public class Page6 extends AppCompatActivity implements CompoundButton.OnChecked
         btn6Next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Page6.this, Page7.class);
-                intent.putExtra("Points", cbPoints + loadedPoints);
-                startActivity(intent);
+                if(cbMother.isChecked() || cbFather.isChecked() || cbSibling.isChecked() || cbChildren.isChecked() || cbOther.isChecked() || cbNo.isChecked()){
+                    Intent intent = new Intent(Page6.this, Page7.class);
+                    intent.putExtra("Points", cbPoints + loadedPoints);
+                    startActivity(intent);
+                } else {
+                    Toast.makeText(Page6.this, "Please select an option for each category", Toast.LENGTH_SHORT).show();
+                }
+
             }
         });
     }
